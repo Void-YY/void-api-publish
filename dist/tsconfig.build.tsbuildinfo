@@ -1187,7 +1187,7 @@
         "affectsGlobalScope": false
       },
       "../src/user/user.controller.ts": {
-        "version": "9cca7e13f774cbd8a5dfc5dbb4be1c12272928a1042bb355811b73e164b717f5",
+        "version": "662c265c58cec6820d5df4ec5659d7b480e3ca7390633512e6b67810f0ba0356",
         "signature": "a0fba811666a195b1857d8b2cdbcfa0d261e4903287f9dd668162bc4bb977df8",
         "affectsGlobalScope": false
       },

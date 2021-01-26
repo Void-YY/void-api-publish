@@ -16,7 +16,7 @@ exports.UserController = void 0;
 const common_1 = require("@nestjs/common");
 let UserController = class UserController {
     findAll(request) {
-        return { status: 200, post: request };
+        return { status: 200, post: request, method: 'get' };
     }
     creat(body) {
         return { status: 200, post: body };

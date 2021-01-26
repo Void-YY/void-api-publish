@@ -19,7 +19,7 @@ let UserController = class UserController {
         return request;
     }
     creat(body) {
-        return { test: body };
+        return { post: body };
     }
 };
 __decorate([

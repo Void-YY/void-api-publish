@@ -18,6 +18,9 @@ let UserController = class UserController {
     findAll(request) {
         return request;
     }
+    creat(body) {
+        return { test: body };
+    }
 };
 __decorate([
     common_1.Get(),
@@ -26,6 +29,13 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", String)
 ], UserController.prototype, "findAll", null);
+__decorate([
+    common_1.Post(),
+    __param(0, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Object)
+], UserController.prototype, "creat", null);
 UserController = __decorate([
     common_1.Controller('user')
 ], UserController);
